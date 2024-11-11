@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelime Yazma Oyunu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Menu -->
+    <div id="main-menu">
+        <h1>Kelime Yazma Oyunu</h1>
+        <button id="start-btn">Oyuna Başla</button>
+    </div>
+
+    <!-- Game Container (hidden initially) -->
+    <div id="game-container" style="display: none;">
+        <canvas id="game-canvas" width="800" height="600"></canvas>
+        <button id="restart-btn" style="display: none;">Yeniden Başlat</button>
+        <div id="score">Puan: 0</div>
+        <div id="health">Sağlık: 3</div>
+        <div id="game-over" style="display: none;">Oyun Bitti</div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
